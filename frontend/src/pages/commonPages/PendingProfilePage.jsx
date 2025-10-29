@@ -147,7 +147,7 @@ const PendingProfilesPage = () => {
                     {profile.email}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
-                    {profile.designation || profile.rollNumber}
+                    {profile.designation || "Class co-ordinator"}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                     <button
